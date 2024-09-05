@@ -1,0 +1,15 @@
+{
+  "name": "serverunity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server ./build -p 8080 --gzip --brotli -c-1 --ssl --cert localhost.pem --key localhost-key.pem"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
