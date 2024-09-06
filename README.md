@@ -1,10 +1,10 @@
 # Animedia | Unity6
 
-Este es un proyecto de Unity llamado **Animedia | Unity6**. El proyecto incluye una aplicación web que utiliza Unity WebGL para mostrar contenido interactivo.
+Este es un proyecto de Unity llamado **Plataforma 2d Maqueta | Unity6**. El proyecto incluye una aplicación web que utiliza Unity WebGL para mostrar contenido interactivo.
 
 ## Descripción
 
-El proyecto **Animedia | Unity6** es una aplicación web desarrollada con Unity. La aplicación incluye una interfaz de usuario personalizada y un canvas de Unity para mostrar contenido interactivo.
+El proyecto **Plataforma 2d Maqueta | Unity6** es una aplicación web desarrollada con Unity. La aplicación incluye una interfaz de usuario personalizada y un canvas de Unity para mostrar contenido interactivo.
 
 ## Estructura del Proyecto
 
