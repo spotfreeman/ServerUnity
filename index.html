@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | TestUnity6</title>
+    <title>Unity Web Player | Space Frontier</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1000 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">TestUnity6</div>
+        <div id="unity-build-title">Space Frontier</div>
       </div>
     </div>
     <script>
@@ -52,15 +52,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Plataforma.loader.js";
+      var loaderUrl = buildUrl + "/Space.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Plataforma.data",
-        frameworkUrl: buildUrl + "/Plataforma.framework.js",
-        codeUrl: buildUrl + "/Plataforma.wasm",
+        dataUrl: buildUrl + "/Space.data",
+        frameworkUrl: buildUrl + "/Space.framework.js",
+        codeUrl: buildUrl + "/Space.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "TestUnity6",
+        companyName: "Animedia",
+        productName: "Space Frontier",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -89,7 +89,7 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "960px";
+        canvas.style.width = "1000px";
         canvas.style.height = "600px";
       }
 
